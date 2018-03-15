@@ -1,0 +1,7 @@
+---
+script: 
+- echo begin
+- ./script/setup
+- echo setup complete
+- bundle exec rake
+- echo rake complete
